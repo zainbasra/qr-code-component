@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: #d5e1ef;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+   
+}
+h1{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    padding: 0 1em;
+    color:  hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+section{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em 1em 2em 1em;
+    margin: 3em 1.5em;
+    border-radius: 20px;
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 480px){
+    body{
+     display:grid;
+    place-items: center;
+    min-height: 100vh;
+        
+}
+    section{
+        width: 276px;
+    }
+    h1{
+        font-size:21px ;
+        padding: 0 .5em;
+    }
+}
